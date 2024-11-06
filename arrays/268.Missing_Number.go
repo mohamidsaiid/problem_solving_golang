@@ -1,3 +1,4 @@
+package arrays
 // https://leetcode.com/problems/missing-number/
 func missingNumber(nums []int) int {
     n := len(nums)

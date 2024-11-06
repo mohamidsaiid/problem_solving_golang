@@ -1,3 +1,4 @@
+package arrays
 // https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
 func smallerNumbersThanCurrent(nums []int) []int {
     n := len(nums)

@@ -1,3 +1,4 @@
+package arrays
 // https://leetcode.com/problems/contains-duplicate-ii/
 func containsNearbyDuplicate(nums []int, k int) bool {
     mpToIndex := make(map[int]int)

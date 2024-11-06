@@ -1,3 +1,4 @@
+package arrays
 // https://leetcode.com/problems/contains-duplicate/
 func containsDuplicate(nums []int) bool {
     mp := make(map[int]struct{})

@@ -1,3 +1,4 @@
+package arrays
 // https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 func findDisappearedNumbers(nums []int) []int {
     n := len(nums)
