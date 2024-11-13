@@ -1,5 +1,9 @@
 // https://leetcode.com/problems/minimum-absolute-difference/
 package slidingWindow
+import(
+    "slices"
+    "math"
+)
 func minimumAbsDifference(arr []int) [][]int {
     n := len(arr)
 
