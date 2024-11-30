@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/number-of-islands/
-package leetcode
+package graph
 // bfs solution
 func numIslands(grid [][]byte) int {
     n, m := len(grid), len(grid[0])
@@ -24,7 +24,6 @@ func numIslands(grid [][]byte) int {
             for d := 0; d < 4; d++ {
                 nextI := cell[0] + di[d]
                 nextJ := cell[1] + dj[d]
-                fmt.Println(nextI, nextJ)
                 
                 if valid(nextI, nextJ) {
                     q = append(q, []int{nextI, nextJ})
